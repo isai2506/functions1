@@ -27,3 +27,37 @@
       }
 
 ## Exercise 2
+    #include<stdio.h>
+    int main()
+    {
+     char s1[50], s2[50];
+     int i, j, length, flag=0;
+
+    printf("Enter first string: ");
+    fgets(s1,sizeof(s1),stdin);
+    printf("Enter second string: ");
+    fgets(s2,sizeof(s2),stdin);
+
+ 
+    for(i=0;s1[i]!='\0';i++);
+    length=i;
+    for(j=0;s2[j]!='\0';j++);
+
+    if(i!=j)
+    printf("1");
+    else
+    {
+       for(i=0; i<length; i++)
+     {
+       if(s1[i]!=s2[i])
+       {
+         flag=1;
+         break;
+       }
+     }
+     if(flag==1) printf("1");
+     else printf("0");
+   }
+
+    return 0;
+   }

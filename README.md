@@ -1,4 +1,4 @@
-##Exercise 1
+## Exercise 1
 
 #include <stdio.h>
 #include <string.h>
@@ -24,5 +24,5 @@ for(i=lind;i<rind;i++)
    }
  
    printf("Inverted string is: %s\n\n", str1);
-}
+  }
 

@@ -26,3 +26,4 @@
        printf("Inverted string is: %s\n\n", str1);
       }
 
+## Exercise 2
